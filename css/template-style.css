@@ -197,8 +197,16 @@ td {border-right:1px solid #fff;}
   background: #002633 none repeat scroll 0 0;
   color: #fff;
 }
+.background-dark-hightlight .top-nav .active-item > a, .background-dark-hightlight .top-nav li a:hover, .background-dark-hightlight .aside-nav li a:hover, 
+.background-dark-hightlight .aside-nav > ul > li.active-item > a:link, .background-dark-hightlight .aside-nav > ul > li.active-item > a:visited,
+.primary-color-dark .background-primary-hightlight .top-nav .active-item > a, .primary-color-dark .background-primary-hightlight .top-nav li a:hover, .primary-color-dark .background-primary-hightlight .aside-nav li a:hover, 
+.primary-color-dark .background-primary-hightlight .aside-nav > ul > li.active-item > a:link, .primary-color-dark .background-primary-hightlight .aside-nav > ul > li.active-item > a:visited {
+  background: #002633 none repeat scroll 0 0;
+  color: #fff;
+}
+
 .background-none {
-  background: rgba(255, 255, 255, 255) none repeat scroll 0 0!important;
+  background: rgba(255, 255, 255, 0) none repeat scroll 0 0!important;
   border: 0;
 }
 
@@ -1323,7 +1331,7 @@ nav {
 }
 .logo img {
   margin: 0;
-  width: 203px;
+  width: 40%;
   position: relative;
 }
 .top-nav li {
