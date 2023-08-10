@@ -199,8 +199,8 @@ nav {
   min-width:100%;
   padding:0.625rem;
 }
-.top-nav li a, .aside-nav li a{background:#830E0D;}
-.top-nav li a:hover, .aside-nav li a:hover {background:#e0e0e0;}
+.top-nav li a, .aside-nav li a{background:#c62c06; transition: transform .2s; }
+.top-nav li a:hover, .aside-nav li a:hover {background:#e0e0e0; border:2px #c62c06; transform: scale(1.25);}
 .top-nav li ul {display:none;}
 .top-nav li ul li,.top-nav li ul li ul li {
   float:none;
