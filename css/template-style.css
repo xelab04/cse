@@ -198,7 +198,7 @@ td {border-right:1px solid #fff;}
   color: #fff;
 }
 .background-none {
-  background: rgba(0, 0, 0, 0) none repeat scroll 0 0!important;
+  background: rgba(255, 255, 255, 255) none repeat scroll 0 0!important;
   border: 0;
 }
 
@@ -310,6 +310,10 @@ ul.chevron .submenu > a::after, ul.chevron .sub-submenu > a::after, ul.chevron .
 .text-dark, .text-dark *, .primary-color-dark .text-primary, .primary-color-dark .text-primary * {
   color: #002633 !important;
 } 
+.text-custom, .text-custom *, .primary-color-custom .text-primary, .primary-color-custom .text-primary * {
+  color: #55002a !important;
+}
+
 .text-primary-hover, .text-white-hover, .text-yellow-hover, .text-orange-hover, .text-red-hover, .text-pink-hover, .text-purple, .text-blue-hover, .text-light-blue, .text-aqua-hover, .text-green-hover, .text-dark-hover {
   transition: color 0.20s linear 0s;
   -o-transition: color 0.20s linear 0s;
@@ -360,6 +364,9 @@ ul.chevron .submenu > a::after, ul.chevron .sub-submenu > a::after, ul.chevron .
 }
 .background-sand {
   background-color: #f9f2e2 !important; 
+}
+.background-custom, .primary-color-custom .background-clustom {
+  background-color: #525252 !important; 
 }
 
 /* Buttons */
